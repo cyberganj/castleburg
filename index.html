@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
     <title>Castle Burg</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
                 
                 <ul class="nav-list">
                     <li ><a href="index.html"class="active">Home</a></li>
-                    <li><a href="uc.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                    <li> <a href="uc.html">Projects</a></li>
                    <li> <a href="uc.html">Blog</a></li>
                    <li class="nohov"> <a href="tel:+916392730978"><button>Contact Us </button></a></li>
@@ -65,8 +67,10 @@
 
      <div class="project-wrap">
            <a href="uc.html"> <h1 class="abth1">Recent Projects</h1></a>
-
-            <div class="proj-parent">
+       
+            <div class=" proj-parent "> 
+                <div class="owl-carousel owl-theme">
+                <div class="item">
                 <div class="proj p1">
                   <img src="./resources/trident-proj.jpg" alt="">
                      <div class="projtext">
@@ -80,6 +84,8 @@
                             <button>More Details</button>
 
                 </div>
+            </div>
+                <div class="item">
                 <div class="proj p2">
                     <img src="./resources/Ace-Golfshire.jpg" alt="">
                     <div class="projtext">
@@ -93,6 +99,9 @@
                             <a href="uc.html"> <button>More Details</button></a>
                   
                 </div>
+              </div>
+
+              <div class="item">
                 <div class="proj p3">
                     <img src="./resources/Ace-Parkway.jpg" alt="">
                     <div class="projtext">
@@ -104,15 +113,19 @@
                          
                       </div>
                             <a href="uc.html"> <button>More Details</button></a>
-                  
+                  </div>
                 </div>
-                   <div class=" p4 arrow">
+
+                </div>
+                </div>
+
+                   <!-- <div class=" p4 arrow">
                     <div> <a href="uc.html"><img src="./resources/arrow.svg" alt="castle-burg-right-arrow" style="height:60px ; width:60px;"></a></div>
                         
                         <div><a href="uc.html"><p>view more</p></a></div>
-                      </div>
+                      </div> -->
                    
-             </div>     
+                  
         
    </div>
 
@@ -188,41 +201,72 @@
     <!-- testimonials -->
 
 
-    <div class="testimo-wrap">
+    <div class="testimo-wrap ">
       <a href="uc.html">  <h1 class="abth1">Testimonials</h1></a>
         
-             <div class="testimonial">
-              <div class="test-content">
+             <div class="testimonial ">
+              <div class="test-content owl-carousel owl-theme">
 
-                <div class="par t1">
+               <div class="item">
+                <div class="tes t1 ">
                     <img src="./resources/harps-joseph-tAvpDE7fXgY-unsplash.jpg" alt="">
                     <p>  “ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem .  ” <br> <br> <h4>- Sandeep H</h4> </p>
                 </div>
+            </div>
 
 
-
-                <div class=" par t2">
-                    <img src="./resources/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="">
+            <div class="item">
+                <div class=" tes t2 ">
+                <img src="./resources/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="">
                     <p> “ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem . ”    <br><br> <h4>- Priyanka S</h4> </p>
                 
 
                 </div>
+            </div>
 
-
-                <div class=" par t3">
+            <div class="item">
+                <div class=" tes t3 ">
                     <img src="./resources/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
                     <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem . ” <br> <br> <h4>- Annie M</h4></p>
-                
 
                 </div>
-                
-                 </div>
+            </div>
+            <div class="item">
+                <div class=" tes t3 ">
+                    <img src="./resources/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                    <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem . ” <br> <br> <h4>- Annie M</h4></p>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class=" tes t3 ">
+                    <img src="./resources/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                    <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem . ” <br> <br> <h4>- Annie M</h4></p>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class=" tes t3 ">
+                    <img src="./resources/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                    <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem . ” <br> <br> <h4>- Annie M</h4></p>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class=" tes t3 ">
+                    <img src="./resources/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                    <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis molestias consectetur blanditiis harum hic dolorem . ” <br> <br> <h4>- Annie M</h4></p>
+
+                </div>
+            </div>
+
               </div>
         
 
 
     </div>
-
+    
+</div>
     <!-- footer -->
 
     <footer>
@@ -234,7 +278,7 @@
                 <hr style="rotate: 90; height: 60px;">
             </div>
             <div class="f3">
-               <a href="" target="_blank" rel="noopener noreferrer"><img src="./resources/facebook.svg" alt="castle-burg-facebook"></a> 
+               <a href="#" target="_blank" rel="noopener noreferrer"><img src="./resources/facebook.svg" alt="castle-burg-facebook"></a> 
                <a href="https://www.instagram.com/castleburgrealty/?hl=en" target="_blank" rel="noopener noreferrer"> <img src="./resources/instagram-sketched.svg" alt="castle-burg-instagram"></a>
                <a href="https://www.linkedin.com/in/castle-burg-realty-720a49160" target="_blank" rel="noopener noreferrer"> <img src="./resources/linkedin.svg" alt="linkedin-castle-burg"></a>
                <a href="https://wa.me/+91 97112 27237" target="_blank" rel="noopener noreferrer"> <img src="./resources/whatsapp.svg" alt="whatsapp-castle-burg"></a>
@@ -243,7 +287,34 @@
             </div>
         </div>
     </footer>
-</div>
+
+
+
 <script src="app.js"></script>
+<script src="./OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+<script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    center:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        800:{
+            items:3,
+            nav:true
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true
+        }
+    }
+})
+</script>
 </body>
 </html>
