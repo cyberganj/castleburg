@@ -178,6 +178,12 @@
         color: white;
 
     }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr;
+
+    }
     
     .content-hero{
         padding:100px 0 0 7%;
@@ -188,6 +194,51 @@
     .content-hero p{
         padding: 12px 0 7px 0;
     }
+
+    .enquiry{
+        display:flex;
+        flex-direction: column;
+        width: 15rem;
+        justify-self: right;
+        padding-right: 4em;
+        padding-top: 4em ;
+        
+    }
+    .enquiry input,select{
+        padding: 4px;
+        margin: 5px;
+        border-radius: 20px;
+        border: none;
+        box-sizing: border-box;   
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+        background: rgba(255, 255, 255, 0.829);
+    }
+    label{
+        font-size: 13px;
+        padding: 5px;
+
+    }
+       select:focus,input:focus{
+        border: 1px solid rgb(255, 207, 117);
+    }
+    
+     .frm-border{
+        padding-top: 10px;
+        
+         display: flex;
+         flex-direction: column;
+         background: rgba(0, 0, 0, 0.438);
+         border-radius: 8px;
+         padding: 6px;
+     }
+     .insubmit{
+         background: green !important;
+         color: white;
+         margin: 20px 0 8px 0 !important;
+         
+     }
 
     /* project section */
 
@@ -462,6 +513,10 @@
         /* responsive css @800px */
     @media (max-width:800px)
     {  
+
+        .hero-form{
+            display: none;
+        }
         /* nav responsive */
         .burger{
             display: block;
