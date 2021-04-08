@@ -112,7 +112,7 @@
             min-height: 12.5vh;
             width: 100%;
             /* background: #00539CFF; */
-            background: rgb(6, 6, 49);
+            background: rgb(3, 32, 59);
             /* color: rgb(247, 200, 83); */
             color: #FFD662FF;
             font-size: 14px;   
@@ -313,7 +313,8 @@
         
         height: 480px;
         width: 100%;
-        background: rgb(6, 6, 49) ;
+        background:rgb(3, 32, 59);
+        /* background: rgb(6, 6, 49) ; */
         color:white;
         line-height: 1.6em;
     
