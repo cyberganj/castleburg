@@ -4,6 +4,7 @@
    *{
         padding: 0;
         margin:0;   
+        font-family: 'Montserrat', sans-serif ;
     }
     /* owl carousel */
 
@@ -21,11 +22,11 @@
     }
 
     /* proj owl */
-   .project-wrap .owl-carousel .owl-stage {
+    .owl-carousel .owl-stage {
         position: relative;
         -ms-touch-action: pan-Y;
         touch-action: manipulation;
-        margin: 20px;
+        /* margin: 20px; */
     }
    .project-wrap .owl-carousel .owl-item img {
         display: block;
@@ -111,8 +112,10 @@
             align-items: center;
             min-height: 12.5vh;
             width: 100%;
-            /* background: #00539CFF; */
-            background: rgb(3, 32, 59);
+            /* background:rgb(1, 82, 119); */
+
+            background: rgb(0, 76, 99);
+            /* background: rgb(3, 32, 59); */
             /* color: rgb(247, 200, 83); */
             color: #FFD662FF;
             font-size: 14px;   
@@ -168,7 +171,7 @@
 
     .hero-wrap
     {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.692),rgba(255, 255, 255, 0.164) ) , url("../resources/castle-burg-hero1.jpg") ;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.801),rgba(146, 146, 146, 0.24) ) , url("../resources/castle-burg-hero1.jpg") ;
         width: 100%;
         height: 65vh;
         background-position: center ;
@@ -180,6 +183,7 @@
     }
     .container{
         display: grid;
+        height: auto;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 1fr;
         justify-items: center;
@@ -200,7 +204,7 @@
     .enquiry{
         display:flex;
         flex-direction: column;
-        width: 25rem;
+        width: 20vw;
         /* justify-self: right; */
         padding-right: 4em;
         padding-top: 4em ;
@@ -210,7 +214,7 @@
     .enquiry input,select{
         padding: 4px;
         margin: 5px;
-        border-radius: 20px;
+        border-radius: 10px;
         border: none;
         box-sizing: border-box;   
         -webkit-transition: 0.5s;
@@ -237,8 +241,9 @@
          padding: 6px;
      }
      .insubmit{
-         background: green !important;
+         background: rgb(37, 160, 37) !important;
          color: white;
+         height: 30px;
          margin: 20px 0 8px 0 !important;
          
      }
@@ -254,12 +259,15 @@
     }
 
     .proj-parent{
-        display: block;
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-left: 7.5%;
-        margin-right: 8%;
+        /* margin-right: 8%; */
         align-items: center;
         margin-top: 30px;
-        justify-content: space-around;
+        justify-self: center;
+        align-self: center;
         
         
         
@@ -270,21 +278,16 @@
     display: flex;
     flex-direction: column;
     height: 390px;
-    width: 295px; 
-    margin-right: 20px ;
+    width: 24vw;
+    margin:15px;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 1px 6px 7px 2px rgba(0, 0, 0, 0.10) ;
 
     }
 
-    .p4{
-        align-self: flex-end;
-    }
 
-   
-
-    .proj-parent img{
+    .proj img{
         height: 180px;
         width: 100%;
     }
@@ -296,6 +299,7 @@
 
     .proj h2{
         margin-bottom: 15px;
+        font-size: 22px !important;
     }
 
     .proj button{
@@ -313,7 +317,8 @@
         
         height: 480px;
         width: 100%;
-        background:rgb(3, 32, 59);
+        background: rgb(0, 76, 99);
+        /* background:rgb(6, 58, 107); */
         /* background: rgb(6, 6, 49) ; */
         color:white;
         line-height: 1.6em;
@@ -436,7 +441,7 @@
 
         
 
-        .t1 , .t2 , .t3{
+       .t-flex{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -494,14 +499,14 @@
         @media (max-width:1285px){
              .proj h2 {
                  
-                 font-size: 26px !important ;
+                 font-size: 22px !important ;
              }
            
         }
         @media (max-width:1101px){
             .proj h2 {
                 
-                font-size: 21px !important ;
+                font-size: 22px !important ;
             }
 
             .about-text p{
@@ -578,19 +583,20 @@
             height: auto;
             width: 100%;
             margin: 0;
-            padding: 0;
+            /* padding-left: 10vw; */
         
         }
         .proj-parent{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            width: 80%;
+            padding-left: 10vw;
             align-items: center;
             margin: 10px 0;
         }
         
         .proj{
-            margin: 20px 0;
+            width:75vw ;
+            margin: 10px;
+           
             
         }
         /* ABOUT RES */

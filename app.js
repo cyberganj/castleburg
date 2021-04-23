@@ -1,3 +1,6 @@
+
+
+// responsive nav
 const navres = () =>{
 
 
@@ -12,3 +15,4 @@ const navres = () =>{
 
 }
 navres();
+
