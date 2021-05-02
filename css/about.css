@@ -1,0 +1,51 @@
+.abt-hero{
+    display: flex;
+    width: 100%;
+    height: 44vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.801),rgba(146, 146, 146, 0.24)) , url('../resources/about-back.jpg');
+    background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: white;
+}
+
+.abt-hero-cont{
+    
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 2.4em;
+}
+.abt-hero h2{
+    font-weight: 100 ;
+    font-style: thin;
+}
+.abt-hero p{
+    font-family: 'Work Sans';
+    font-weight: 100;
+}
+
+/* content */
+.abt-cont{
+    max-width: 80vw;
+    margin: auto;
+    
+    height: auto;
+}
+
+.abt-cont h1{
+    font-size: 40px;
+}
+.wht-do{
+    padding: 2em;
+    height: 50vh;
+    background: rgba(128, 0, 0, 0.438);
+}
+.abt-team{
+    height: 50vh;
+    background: rgba(102, 205, 171, 0.548);
+    padding: 2em;
+}

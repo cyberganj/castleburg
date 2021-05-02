@@ -8,7 +8,14 @@
     }
     /* owl carousel */
 
-    
+    .castle{
+        /* font-family: Helvetica; */
+        font-style: italic;
+        font-weight: 300;
+    }
+    h1,h2{
+        font-family: 'Work Sans' ;
+    }
 
 .owl-carousel{
         width: 82% !important;
@@ -45,7 +52,13 @@
       
     }
 
-    h1 , h2{
+  .index-wrap h1{
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+        word-spacing: 5px; 
+        font-size: 32px;  
+    }
+    .index-wrap h2{
         font-family: 'PT Serif', serif;
         font-weight: 700;
         word-spacing: 5px; 
@@ -75,14 +88,16 @@
         border: none;
         height: 32px;
         width: 90px;
-        border-radius: 8px;
-        background: rgb(161, 12, 12);
-    }
-
-    button:hover{
+        border-radius: 6px;
+        /* background: rgb(161, 12, 12); */
         background: rgba(255, 255, 255, 0);
         border: 2px  solid rgb(247, 200, 83);
         color: rgb(247, 200, 83);
+    }
+
+    button:hover{
+        background:  rgb(247, 200, 83);
+         color:white; 
         
     }
 
@@ -110,7 +125,7 @@
             overflow: hidden;
             justify-content: space-around;
             align-items: center;
-            min-height: 12.5vh;
+            min-height: 12.45vh;
             width: 100%;
             /* background:rgb(1, 82, 119); */
 
@@ -157,7 +172,7 @@
     }
 
     .nav ul a:hover {
-        background:rgb(207, 164, 55);
+        background:rgb(247, 200, 83);
         color: white;
         transition: all 0.2s ease-in-out;
     }
@@ -204,7 +219,7 @@
     .enquiry{
         display:flex;
         flex-direction: column;
-        width: 20vw;
+        width: 21vw;
         /* justify-self: right; */
         padding-right: 4em;
         padding-top: 4em ;
@@ -212,15 +227,15 @@
         
     }
     .enquiry input,select{
-        padding: 4px;
+        padding: 7px;
         margin: 5px;
-        border-radius: 10px;
+        border-radius: 8px;
         border: none;
         box-sizing: border-box;   
         -webkit-transition: 0.5s;
         transition: 0.5s;
         outline: none;
-        background: rgba(255, 255, 255, 0.829);
+        background: rgb(255, 255, 255);
     }
     label{
         font-size: 13px;
@@ -228,15 +243,14 @@
 
     }
        select:focus,input:focus{
-        border: 1px solid rgb(255, 207, 117);
+        border: 1.5px solid rgb(0, 76, 99);
     }
     
      .frm-border{
-        padding-top: 10px;
-        
+         padding-top: 10px;
          display: flex;
          flex-direction: column;
-         background: rgba(0, 0, 0, 0.438);
+         background: rgba(0, 0, 0, 0.192);
          border-radius: 8px;
          padding: 6px;
      }
@@ -251,9 +265,8 @@
     /* project section */
 
     .project-wrap{
-        height: 690px;
+        height: 630px;
         width: 100%;
-        margin-bottom: 40px ;
         margin-top: 50px ;
         font-size: 14px;
     }
@@ -275,14 +288,14 @@
 
     .proj{
 
-    display: flex;
-    flex-direction: column;
-    height: 390px;
-    width: 24vw;
-    margin:15px;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 1px 6px 7px 2px rgba(0, 0, 0, 0.10) ;
+        display: flex;
+        flex-direction: column;
+        height: 390px;
+        width: 24vw;
+        margin:15px;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px 0 rgba(73, 73, 73, 0.068), 1px 6px 6px 2px rgba(73, 73, 73, 0.075) ;
 
     }
 
@@ -294,7 +307,7 @@
 
     .projtext{
         padding: 10px;
-        margin: 8px 0 8px 12px;
+        margin: 8px 0 8px 15px;
     }
 
     .proj h2{
@@ -304,7 +317,7 @@
 
     .proj button{
         margin:0 0 0 30%;
-        border-radius: 8px;
+        border-radius: 6px;
     }
 
     .proj:hover{
@@ -340,7 +353,7 @@
         
         }
         .abth1{
-            padding: 40px 0 20px 7.5%;
+            padding: 0px 0 20px 7.5%;
         }
 
     .about-wrap a{
@@ -448,7 +461,7 @@
             align-items: center;
             text-align: center;
             padding: 10px;
-            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 1px 6px 7px 2px rgba(0, 0, 0, 0.10);
+            box-shadow: 0 2px 4px 0 rgba(73, 73, 73, 0.068), 1px 6px 8px 1px rgba(73, 73, 73, 0.075) ;
             border-radius: 6px;
         }
         
@@ -574,7 +587,7 @@
             padding: 80px 0 0 8%;
         
         }
-         h1,h2{
+        .hero-wrap h1,h2{
              font-size: 26px;
          }
 

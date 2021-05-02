@@ -5,12 +5,17 @@ margin-bottom: 30px;
 .hero-cont{
     display: flex;
     width: 100%;
-    height: 30vh;
-    background: rgba(128, 128, 128, 0.404);
+    height: 44vh;
+    background-image: url('../resources/project-back.jpg');
     justify-content: center;
+    background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: white;
    
 }
-.search-proj{
+/* .search-proj{
      
    align-self: center;
   
@@ -29,7 +34,11 @@ margin-bottom: 30px;
     border: none;
     outline: none;
     padding: 28px;
-}
+} */
 
 
 /* projects resid */
+.resi-proj{
+    max-width: 80vw;
+    margin: auto;
+}
