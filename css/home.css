@@ -4,6 +4,7 @@
    *{
         padding: 0;
         margin:0;   
+        /* box-sizing: border-box; */
         font-family: 'Montserrat', sans-serif ;
     }
     /* owl carousel */
@@ -12,6 +13,11 @@
         /* font-family: Helvetica; */
         font-style: italic;
         font-weight: 300;
+    }
+
+    #map{
+        height: 400px;
+        width: 650px;
     }
     h1,h2{
         font-family: 'Work Sans' ;
@@ -548,12 +554,12 @@
         .nav-list{
             position: absolute;
             flex-direction: column;
-            height: 86vh;
+            height: 90vh;
             right: 0px;
             top: 12.5vh;
-            background:rgb(6, 6, 49);  
-            width: 60%;
-            z-index: 1; 
+            background: rgb(0, 76, 99);  
+            width: 80%;
+            z-index: 2; 
             transform: translateX(100%);
             transition: transform 0.5s ease-in;
         }
