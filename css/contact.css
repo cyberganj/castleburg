@@ -1,0 +1,21 @@
+/*  */
+
+/*  */
+.contact-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+.text-cont{
+    background: blueviolet;
+    width: 40vw;
+    height: 60vh;
+}
+.form-cont{
+    background: brown;
+    width: 40vw;
+    height: 60vh;
+}

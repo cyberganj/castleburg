@@ -6,14 +6,19 @@ margin-bottom: 30px;
     display: flex;
     width: 100%;
     height: 44vh;
-    background-image: url('../resources/project-back.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.432)) , url('../resources/project-back.jpg');
     justify-content: center;
     background-position: center ;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         color: white;
+        align-items: center;        
    
+}
+.hero-cont h1{
+    font-family: 'Montserrat';
+    font-size: 42px;
 }
 /* .search-proj{
      
@@ -39,6 +44,21 @@ margin-bottom: 30px;
 
 /* projects resid */
 .resi-proj{
-    max-width: 80vw;
+   max-width: 80vw;
     margin: auto;
+    height: 80vh;
+
+}
+.res-proj-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.com-proj-list{
+    display: flex;
+   align-items: center;
+   
+    height: 70vh;
+
 }

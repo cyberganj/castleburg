@@ -1,13 +1,18 @@
+/* all */
+    .padd-20px{
+        padding: 20px;
+    }
+/*  */
 .abt-hero{
     display: flex;
     width: 100%;
     height: 44vh;
     background-image: linear-gradient( rgba(0, 0, 0, 0.801),rgba(146, 146, 146, 0.24)) , url('../resources/about-back.jpg');
     background-position: center ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
 }
 
 .abt-hero-cont{
@@ -42,10 +47,10 @@
 .wht-do{
     padding: 2em;
     height: 50vh;
-    background: rgba(128, 0, 0, 0.438);
+    /* background: rgba(128, 0, 0, 0.438); */
+    line-height: 25px;
 }
 .abt-team{
     height: 50vh;
-    background: rgba(102, 205, 171, 0.548);
     padding: 2em;
 }
